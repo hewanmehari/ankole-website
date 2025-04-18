@@ -1,0 +1,83 @@
+body{
+    background-image:linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url(Images/mushrooms\ live.jpg);
+    background: cover;
+    height: 250vh;
+    width:100vw;
+    margin-top: 5%;
+}
+.mushroom p{
+    text-align: center;
+    padding-top: 15%;
+    font-size: 90px;
+    color: white;
+    transition: 2s;
+}
+.navbar{
+    position: fixed;
+    height:30px;
+    width:40%;
+    border-radius: 50px;
+    background-color: black;
+    top:85%;
+    padding-top: 25px;
+      padding-bottom: 20px;
+      border-radius: 40px;
+      margin-bottom: 55px;
+      margin-left: 28%;
+    font-size: 17px;
+  
+  }
+   
+  .navbar a{
+    text-decoration: none;
+    color: white;
+    gap:1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+    
+    
+  }
+  
+  
+  #reserve{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+  #reserve:hover{
+  background-color: white;
+  color:black;
+  
+    
+  }
+  .navbar a:hover {
+  background: rgb(36, 35, 35);
+  }
+  
+  .navbar a.active {
+  background-color: black;
+  color: rgb(32, 27, 27);
+  }
+  .fa-whatsapp{
+    padding: 2.7% 3% ;
+    position: absolute;
+    left: 215%;
+  top: 8%;
+  font-size: 40px;
+  border: 1px solid black;
+  width: 32px;
+  height: 34px;  
+  border-radius: 90px;
+  background-color: rgb(15, 14, 14);
+  margin-left: -60%;
+  color: white;
+  padding-bottom: 3.5%;
+  
+  }
+

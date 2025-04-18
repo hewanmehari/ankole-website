@@ -1,0 +1,276 @@
+
+
+
+
+
+body{
+    margin:  auto ;
+  
+}
+.menu{
+    display: flex;
+   
+
+   
+   
+
+}
+.kilimani{
+    background-image: url(Images/ankole\ scarf.jpg);
+    width: 900px;
+    background-repeat: no-repeat;
+    padding-left: 20%;
+    padding-top: 10%;
+    position: static;
+    overflow-y: hidden;
+}
+.kilimani img{
+    width:200px;
+}
+.kili-menu{
+  
+    padding-top: 5%;
+    line-height: 2px;
+}
+.kili-menu p{
+    color: white;
+    font-size: 40px;
+    padding-left: 10%;
+
+}
+.kili-menu h3{
+    color: rgb(219, 34, 34);
+    font-size: 70px;
+ 
+
+}
+.navs{
+    margin-top: 6%;
+    margin-bottom: 5%;
+    display: flex;
+   margin-left: 25%;
+}
+.navs a:hover{
+    color: orangered;
+
+}
+#food{
+    margin-left: 65px;
+}
+#sides{
+    margin-left: 65px;
+}
+.meals a{
+    text-decoration: none;
+    color: white;
+   
+    margin-left: 11%;
+     
+}
+.drinks{
+    display: flex;
+    color: rgb(219, 34, 34);
+    padding-left: -1%;
+ 
+}
+
+.lists{
+    display: flex;
+    gap: 583px;
+    padding-left: 9%;
+    padding-top: 2%;
+}
+.meals{
+    color: white;
+    background-color: black;
+  
+    width: 1600px;
+   overflow: scroll;
+   height: 100vh;
+
+}
+.meals h2{
+    padding-left: 9%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.offers{
+    padding-left: 9%;
+}
+
+.details img{
+        width: 100px;
+}
+.details{
+    display: flex;
+    gap: 19px;
+    padding-bottom: 8%;
+    padding-left: 9%;
+    margin-top: 3%;
+}
+.ingredients{
+ display: flex;
+ gap: 160px;
+}
+.ingredient{
+    display: flex;
+    gap: 290px;
+}
+.ranch{
+    display: flex;
+    gap: 190px;
+}
+.crepe{
+    display: flex;
+    gap: 400px;
+}
+.amount{
+    
+}
+.breakfast{
+   margin-top: 3%;
+}
+.cake{
+    display: flex;
+    gap: 290px;
+}
+.raspberry{
+    display: flex;
+    gap:340px;
+}
+.potato{
+    display: flex;
+    gap: 250px;
+}
+.extras{
+    display: flex;
+    gap: 630px;
+    padding-left: 9%;
+     
+}
+
+.costs{
+    margin-top: 5%;
+}
+
+.foods h3{
+    color: rgb(219, 34, 34);
+}
+.soups{
+    display: flex;
+    gap:400px;
+   
+    padding-left: 9%;
+}
+.soups h2{
+    padding-left: 1%;
+}
+.afri-soup h2{
+    color: rgb(219, 34, 34);
+}
+.cup-bowls{
+    margin-top: 12%;
+    
+}
+.amount{
+    margin-top: 1%;
+}
+.beef{
+    display: flex;
+    gap: 70px;
+
+}
+.chicken{
+    display: flex;
+    gap: 173px;
+}
+.keen{
+    display: flex;
+   
+}
+.sides h3{
+    color: rgb(219, 34, 34);
+}
+.sides{
+    padding-left: 9%;
+}
+.juices{
+    display: flex;
+    padding-left: 9%;
+    gap: 605px;
+}
+.juices h3{
+    color: rgb(219, 34, 34);
+}
+.pay{
+    margin-top: 11%;
+}
+.juices h2{
+    padding-left: 1%;
+}
+.navbar {
+    color: white;
+    position: absolute;
+    height:30px;
+    width:40%;
+    border-radius: 50px;
+    background-color: black;
+    top:85%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    margin-left: -15%;
+    font-size: 17px;
+ 
+}
+   
+.navbar a{
+    text-decoration: none;
+    color: white;
+    gap:1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+    
+}
+.reserve{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 10px;
+    border: 10px;
+    background-color: rgb(109, 108, 108);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+
+}
+#reserve:hover{
+    background-color: white;
+    color:black;
+  } 
+  
+.navbar a:hover {
+    background: rgb(36, 35, 35);
+  }
+  
+.navbar a.active {
+    background-color: black;
+    color: rgb(32, 27, 27);
+}
+.fa-whatsapp{
+    padding: 2.7% 3% ;
+  
+    position: absolute;
+    left: 215%;
+top: 8%;
+font-size: 40px;
+border: 1px solid black;
+ width: 32px;
+height: 34px;  
+border-radius: 90px;
+background-color: rgb(20, 20, 20);
+
+}

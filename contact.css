@@ -1,0 +1,170 @@
+body{
+  overflow: hidden;
+  margin: auto;
+}
+
+.contact-container{
+    background: linear-gradient(rgba(3, 0, 30, 0.5), rgba(80, 82, 80, 0.5)),url(Images/anokle\ it\ self.jpg);
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+.socials{
+  position:absolute;
+  margin-bottom: 10%;  margin-top: 3%;
+  margin-left: 90%;
+  margin-right: 100%;
+  padding-right: 100%;
+  gap: 2%;
+color: rgb(131, 122, 122);
+position: absolute;
+display: flex;
+gap: 15px;
+}
+#ig{
+  border: solid 1px;
+  border-radius: 15px;
+  font-size: 40px;
+  color: gray;
+  width: 100%;
+
+}
+#fb{
+  border: solid 1px;
+  border-radius: 15px;
+  font-size: 40px;
+  color: gray;
+  width: 100%;
+}
+
+#logo{
+  margin-top: 3%;
+  margin-left: 42%;
+  width: 15%;
+}
+.kitisuru{
+    border: solid 1px white;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 25%;
+    margin-bottom: auto;
+    line-height: 150%;
+   
+
+}
+.kitisuru h1{
+    font-size: 35px;
+    color: white;
+    padding-left: 15%;
+}
+.kitisuru p{
+    font-size: 20px;
+    color: white;
+    padding-left: 15%;
+}
+.kilimani {
+    border: solid 1px white;
+    width: 25%;
+    margin-top: 2%;
+    height: 30%;
+    margin-bottom: 10%;
+    line-height: 160%;
+    
+
+}
+.kilimani h1{
+    font-size: 35px;
+    color: white;
+    padding-left: 15%;
+}
+.kilimani p{
+    font-size: 20px;
+    color: white;
+    padding-left: 15%;
+  
+   
+    
+}
+.branches{
+    display: flex;
+    gap: 3%;
+    margin:auto;
+}
+#email{
+  color:white;
+  font-size: 20px;
+  padding-left: 15%;
+}
+#event{
+  color: white;
+  font-size: 20px;
+  padding-left: 15%;
+}
+.navbar{
+  position: absolute;
+  height:30px;
+  width:40%;
+  background-color: black;
+  top:85%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+  margin-bottom: 55px;
+  margin-left: 28%;
+  font-size: 17px;
+
+}
+ 
+.navbar a{
+  text-decoration: none;
+  color: white;
+  gap:1%;
+  align-items: center;
+  padding: 1%;
+  margin-left: 2%;
+  
+}
+
+
+#reserve{
+  background-color: grey;
+  height: 50px;
+  width: 130px;
+  border-radius: 30px;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+#reserve:hover{
+background-color: white;
+color:black;
+
+  
+}
+.navbar a:hover {
+background: rgb(36, 35, 35);
+}
+
+.navbar a.active {
+background-color: black;
+color: rgb(32, 27, 27);
+}
+.fa-whatsapp{
+  padding: 2.7% 3% ;
+  position: absolute;
+  left: 215%;
+top: 8%;
+font-size: 40px;
+border: 1px solid gray;
+width: 32px;
+height: 34px;  
+border-radius: 90px;
+background-color: black;
+margin-left: -60%;
+color: white;
+padding-bottom: 3.5%;
+
+}
