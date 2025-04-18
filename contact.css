@@ -21,22 +21,29 @@ body{
 color: rgb(131, 122, 122);
 position: absolute;
 display: flex;
-gap: 15px;
+gap: 70px;
 }
 #ig{
-  border: solid 1px;
-  border-radius: 15px;
   font-size: 40px;
   color: gray;
-  width: 100%;
+  width: 50px;
+  border: 1px  solid  gray;
+    border-radius:  80px;
+    padding: 10px 10px;
+    position: absolute;
+    padding-right: 0px;
 
 }
 #fb{
-  border: solid 1px;
   border-radius: 15px;
   font-size: 40px;
   color: gray;
-  width: 100%;
+  width: 50px;
+  border: 1px  solid  gray;
+    border-radius:  80px;
+    padding: 10px 10px;
+    position: absolute;
+    padding-right: 0px;
 }
 
 #logo{

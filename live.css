@@ -1,6 +1,7 @@
 body{
   margin: auto;
   overflow: hidden;
+ 
 }
 #logo{
   padding-right: -20%;
@@ -37,7 +38,7 @@ gap: 15px;
 }
 
 .live{
-    background-image: url(Images/ankole\ drum.jpg);
+    background-image: linear-gradient(rgba(3, 0, 30, 0.5), rgba(80, 82, 80, 0.5)),url(Images/ankole\ drum.jpg);
     filter:brightness(0.65);
   background-repeat: no-repeat;
   background-size: cover;

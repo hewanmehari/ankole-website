@@ -4,6 +4,7 @@ body{
     height: 250vh;
     width:100vw;
     margin-top: 5%;
+    overflow: hidden;
 }
 .mushroom p{
     text-align: center;

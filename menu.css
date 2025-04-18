@@ -19,23 +19,31 @@ body{
   color: rgb(131, 122, 122);
   position: absolute;
   display: flex;
-  gap: 15px;
+  gap: 70px;
   
   }
   #ig{
-    border: solid 1px;
-    border-radius: 15px;
+    border: 1px solid gray;
+    border-radius: 80px;
     font-size: 40px;
     color: gray;
-    width: 100%;
+    width: 40px;
+    padding: 10px 10px;
+    position: absolute;
+    padding-right: -0.3px;
   
   }
   #fb{
-    border: solid 1px;
-    border-radius: 15px;
     font-size: 40px;
     color: gray;
-    width: 100%;
+    width: 40px;
+    border: 1px  solid  gray;
+    border-radius:  80px;
+    padding: 10px 10px;
+    position: absolute;
+    
+
+    
   }
   
 
@@ -60,6 +68,7 @@ body{
 }
 .kitisuru a{
    color: white;
+   text-decoration: none;
     font-size: 30px;
 }
 .kilimani{
@@ -84,6 +93,7 @@ body{
 .kilimani a{
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
 .kilimani h2{
     color: white;
@@ -97,7 +107,7 @@ body{
     border-radius: 50px;
     background-color: black;
     top:85%;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 25px;
     border-radius: 40px;
     margin-bottom: 55px;
@@ -154,7 +164,7 @@ body{
   background-color: rgb(15, 14, 14);
   margin-left: -60%;
   color: white;
-  padding-bottom: 3%;
+  padding-bottom: 3.5%;
   
   }
 
@@ -162,4 +172,186 @@ body{
 .logo{
    
     margin-bottom: 40%;
+}
+
+@media(max-width:430px){
+  body{
+    overflow: hidden;
+    margin: auto;
+    overflow-y: hidden;
+}
+#logo{
+    margin-top: -40%;
+    margin-left: -65%;
+    width: 20%;
+
+}
+.socials{
+    position:absolute;
+    margin-bottom: 10%;  margin-top: 3%;
+    margin-left: 69%;
+    margin-right: 10%;
+    padding-right: 100%;
+    margin-top: 4%;
+    gap: 1%;
+  color: rgb(131, 122, 122);
+  position: absolute;
+  display: flex;
+  gap: 70px;
+  
+  }
+  #ig{
+    border: 1px solid gray;
+    border-radius: 80px;
+    font-size: 30px;
+    color: gray;
+    width: 40px;
+    padding: 10px 10px;
+    position: absolute;
+    padding-right: 0px;
+  
+  }
+  #fb{
+    font-size: 30px;
+    color: gray;
+    width: 30px;
+    border: 1px  solid  gray;
+    border-radius:  80px;
+    padding: 10px 10px;
+    position: absolute;
+    
+
+    
+  }
+  
+
+.menu-pg{
+    flex-direction: column;
+}
+.kitisuru{
+    background: linear-gradient(rgba(4, 3, 3, 0.5), rgba(98, 92, 82, 0.5)),url(Images/anokle\ it\ self.jpg);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 15%;
+}
+.kitisuru p{
+    color: rgb(212, 84, 37);
+    font-size: 20px;
+}
+.kitisuru h1{
+    color: white;
+    font-size: 50px;
+
+}
+.kitisuru a{
+   color: white;
+   text-decoration: none;
+    font-size: 20px;
+}
+.kilimani{
+    background: linear-gradient(rgba(4, 3, 3, 0.5), rgba(98, 92, 82, 0.5)),url(Images/ankole\ kilimaniiii.jpg);
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 15%;
+    background-size: cover;
+
+}
+.kilimani p{
+    color: rgb(212, 84, 37);
+    font-size: 20px;
+
+}
+.kilimani h1{
+    color: white;
+    font-size: 50px;
+
+}
+.kilimani a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.kilimani h2{
+    color: white;
+    font-size: 20px;
+
+}
+.navbar{
+    position: absolute;
+    height:20px;
+    width:96%;
+    border-radius: 50px;
+    background-color: black;
+    top:85%;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 40px;
+    margin-bottom: -15px;
+    margin-left: 2%;
+    font-size: 10px;
+    margin-top: 15%;
+  
+  }
+   
+  .navbar a{
+    text-decoration: none;
+    color: white;
+    gap:1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+    
+  }
+  
+  
+  #reserve{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+  #reserve:hover{
+  background-color: white;
+  color:black;
+  
+    
+  }
+  .navbar a:hover {
+  background: rgb(36, 35, 35);
+  }
+  
+  .navbar a.active {
+  background-color: black;
+  color: rgb(32, 27, 27);
+  }
+  .fa-whatsapp{
+    padding: 2.7% 3% ;
+    position: absolute;
+    left: 0%;
+  top: 8%;
+  font-size: 40px;
+  border: 1px solid gray;
+  width: 32px;
+  height: 34px;  
+  border-radius: 90px;
+  background-color: rgb(15, 14, 14);
+  margin-left: 85%;
+  margin-top: -18%;
+  color: white;
+  padding-bottom: 3.5%;
+  padding-top: -5%;
+  
+  }
+
+  
+.logo{
+   
+    margin-bottom: 40%;
+}
 }

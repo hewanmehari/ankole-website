@@ -1,3 +1,9 @@
+@font-face{
+  font-family: poppins;
+  src: url(Poppins-Regular.ttf)
+}
+
+
 body{
   overflow: hidden;
   margin: auto;
@@ -49,9 +55,8 @@ gap: 15px;
   height: 100%;
   background-size: cover;
   animation: slide 15s infinite;
-    color: gray;
-  
-
+  color: gray;
+    
 }
 .welcome {
   background-image: url(Images/anokle\ ingredient.jpg);
@@ -120,6 +125,9 @@ gap: 15px;
   font-size: 17px;
 
 }
+.logo{
+width:100%;
+}
  
 .navbar a{
   text-decoration: none;
@@ -176,12 +184,18 @@ padding-bottom: 3%;
 
 
 
-@media only screen and (max-width: 430){
+@media(max-width:430px){
   
   body{
     overflow: hidden;
     margin: auto;
+
     
+  
+  }
+  .logo img{
+    width: 100px;
+    padding-top: 10%;
   
   }
   .ankole {
@@ -191,9 +205,10 @@ padding-bottom: 3%;
   }
   .socials{
     position:absolute;
-    margin-bottom: 0%;  margin-top: -35%;
-    margin-left: 90%;
-    margin-right: 100%;
+    margin-bottom: 0%;  
+    margin-top: -120%;
+    margin-left: 80%;
+    margin-right: -20%;
     padding-right: 100%;
     gap: 2%;
   color: rgb(131, 122, 122);
@@ -206,7 +221,7 @@ padding-bottom: 3%;
     border-radius: 15px;
     font-size: 40px;
     color: gray;
-    width: 100%;
+    width: 50%;
   
   }
   #fb{
@@ -223,7 +238,7 @@ padding-bottom: 3%;
     background-position: center;
     opacity: 0;
     text-align: center;
-    font-size: 65px;
+    font-size: 35px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -266,31 +281,29 @@ padding-bottom: 3%;
   .navbar{
     position: absolute;
     height:30px;
-    width:60%;
+    width:90%;
     border-radius: 50px;
     background-color: black;
     top:85%;
-    padding-top: 22px;
-      padding-bottom: 20px;
+    padding-top: 25px;
+      padding-bottom: 10px;
       border-radius: 40px;
-      margin-bottom: 55px;
-      margin-left: 28%;
-    font-size: 17px;
+      margin-bottom: 55px; 
+       margin-left: 2%;
+     font-size: 9px;
   
   }
    
   .navbar a{
     text-decoration: none;
     color: white;
-    gap:1%;
+    gap:0%; 
     align-items: center;
     padding: 1%;
-    margin-left: 2%;
+     margin-left: 2%; 
     
     
   }
-  
-  
   #reserve{
     background-color: grey;
     height: 50px;
@@ -318,17 +331,19 @@ padding-bottom: 3%;
   .fa-whatsapp{
     padding: 2.7% 3% ;
     position: absolute;
-    left: 215%;
-  top: 8%;
+    left: 25%;
+  top: -100%;
   font-size: 40px;
   border: 1px solid gray;
   width: 32px;
   height: 34px;  
   border-radius: 90px;
   background-color: black;
-  margin-left: -60%;
+  margin-left:65%;
   color: white;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 3.5%;
+  
   
   }
   

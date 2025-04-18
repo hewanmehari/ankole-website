@@ -125,6 +125,137 @@ text-align:center;
     right: 3%;
   }
 
+  @media(max-width:430px){
+    body{
+      background-color: black;
+      color: white;
+      overflow: hidden;
+      margin-top: -60px;
+  }
+  .social-media{
+      width: 5%;
+      display: flex;
+      margin-left: 93%;
+      right: 1%;
+      top: 4%;
+      gap: 20%;
+      a{
+          text-decoration: none;
+          color:gray;
+          cursor: pointer;
+      }
+  }
+  #media{
+      font-size: 13px;
+      padding: 10px;
+      display: flex;
+      color:gray;
+      border: 1px solid gray;
+      border-radius: 50%;
+  }
+  .review{
+      font-family:Poppins;
+  }
+  .reviews{
+  display: flex;
+  gap: 10px;
+  margin-top: -5px;
+  margin-left: 25%;
+  line-height: 35px;
+  color: white;
+  text-align:center;
+  }
+  #logo{
+      width: 20px;
+      margin-left: 0px;
+  }
+  .head{
+      margin-left: 750px;
+      h1{
+          margin-left: 52px;
+          margin-top: 60px;
+          color: white;
+          font-size: 40px;
+      }
+  }
+  #up-quote{
+      margin-left: 5%;
+      color: rgb(231, 23, 23);
+      font-size: 40px;
+      top: 20%;
+  }
+  #down-quote{
+      margin-left: 86%;
+      bottom: 31%;
+      position: absolute;
+      color: rgb(231, 23, 23);
+      font-size: 40px;
+  }
+  #previous{
+      font-size: 40px;
+      color: white;
+      margin-top: 70px;
+      color: gray;
+  }
+  #next{
+      font-size: 40px;
+      color: white;
+      margin-top: 70px;
+      color: gray;
+  }
+  .navbar {
+      background-color: rgb(15, 14, 14);
+      position: fixed;
+      bottom: 0;
+      width: 35%;
+      padding-top: -15px;
+      padding-bottom: -4px;
+      border-radius: 40px;
+      margin-bottom: 125%;
+      margin-left: -0%;
+  
+  
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #F2F2F2;
+      text-align: center;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 9px;
+    }
+    #reserve {
+      background-color: rgb(117, 113, 113);
+      border-radius: 30px;
+      padding: 10px 10px 10px 10px;
+      transition-duration: 0.4s; 
+      cursor: pointer;
+    }
+    #reserve:hover {
+      color: black;
+      background: white;
+    }
+    .navbar a:hover {
+      background: rgb(48, 45, 45);
+      border-radius: 30px;
+    }
+    .navbar a.active {
+      background-color: black;
+      color:  rgb(32, 27, 27);
+    }
+    #whatsapp {
+      position:absolute;
+      background-color: rgb(15, 14, 14);
+      border-radius: 80px;
+      padding: 10px;
+      margin-top: 40px;
+      margin-left: 135%;
+      bottom: 7%;
+      right: 3%;
+    }
+
+  }
 
 
 
