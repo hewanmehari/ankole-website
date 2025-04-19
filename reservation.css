@@ -452,4 +452,237 @@ input[type=submit] {
     }
   }  
 
+  @media only screen and (min-width:769px) and (max-width:1024px){
+
+    body{
+      background-color: rgb(0, 0, 0);
+      margin:auto;
+      overflow: hidden;
+  }
+  .reservation{
+      display:flex;
+  }
+  #logo{
+      position: absolute;
+      width: 15%;
+      margin-left: 19%;
+      margin-top: -40%;
+  }
+  .karibu img{
+    position: absolute;
+    margin-top: 0%;
+     background-repeat: no-repeat;
+      margin-left: 0%;
+      width: 50%;
+      height: 100%;
+  }
+   p{
+      color: white;
+      font-size: 35px;
+      margin-left: 23%;
+      margin-top: 40%;
+      position: absolute;
+  
+  }
+  .karibu-txt h1{
+      color: orangered;
+      font-size: 70px;
+      margin-left: 10%;
+      padding-bottom: 10%;
+      margin-top: 50%;
+      position: absolute;
+  }
+  #decor{
+    filter: brightness(0.75);
+  }
+  .input{
+      margin-top: 5%;
+     padding-left: 40%;
+     position: absolute;
+     
+  }
+     
+  
+  .form input{
+      width:100%;
+      text-align: justify;
+      margin-right: 40%;
+      border: solid 1px white;
+      
+      
+  }
+  input[type=text], select {
+      width: 350%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(206, 203, 203);
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: white;
+      
+  }
+  input[type=submit] {
+      width: 350%;
+      background-color: rgb(228, 196, 138);
+      color: black;
+      padding: 25%;
+      margin: 8px 0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 25px;
+    }
+    .form input{
+      width: 95%;  
+      margin: 0 auto;
+      padding: 15%;
+      border-radius: 4px ;
+    }
+    
+    input[type=submit]:hover {
+      background-color: rgb(139, 105, 40);
+      color:white;
+    }
+    label{
+      color:white;
+  
+    }
+    input[type=time] {
+      width: 100%;
+    padding: 20%;
+    margin: 8px;
+    box-sizing: border-box;
+    color: white;
+    }
+    .navbar{
+      position: absolute;
+      height:30px;
+      width:70%;
+      border-radius: 50px;
+      background-color: rgb(27, 26, 26);
+      top:85%;
+      padding-top: 25px;
+      padding-bottom: 20px;
+      border-radius: 40px;
+      margin-bottom: 55px;
+      margin-left: 3%;
+      font-size: 17px;
+    
+    }
+     
+    .navbar a{
+      text-decoration: none;
+      color: white;
+      gap:1%;
+      align-items: center;
+      padding: 1%;
+      margin-left: 2%;
+      
+    }
+    
+    
+    #reserve{
+      background-color: grey;
+      height: 50px;
+      width: 130px;
+      border-radius: 30px;
+      border: none;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    
+    }
+    #reserve:hover{
+    background-color: white;
+    color:black;
+    
+      
+    }
+    .navbar a:hover {
+    background: rgb(36, 35, 35);
+    }
+    
+    .navbar a.active {
+    background-color: black;
+    color: rgb(32, 27, 27);
+    }
+    .fa-whatsapp{
+      padding: 1.7% 3% ;
+      position: absolute;
+      left: 165%;
+    top: 8%;
+    font-size: 40px;
+    border: 1px solid gray;
+    width: 32px;
+    height: 34px;  
+    border-radius: 90px;
+    background-color: black;
+    margin-left: -60%;
+    color: white;
+    padding-bottom: 3.5%;
+    
+    }
+  
+  
+    
+    #name{
+      
+      padding: 20%;
+      background-color: black;
+    }
+    #location{
+      width:350%;
+      padding: 20%;
+      background-color: black;
+  
+   }
+   #email{
+      width:350%;
+      padding: 20%;
+      color: white;
+      background-color: black;
+      border: 1px solid rgb(206, 199, 199);
+      border-radius: 4px;
+      box-sizing: border-box;
+   }
+   #tel{
+      width:350%;
+      padding: 20%;
+      color: white;
+      background-color: black;
+      border: 1px solid rgb(207, 193, 193);
+      border-radius: 4px;
+      box-sizing: border-box;
+   }
+   #guests{
+    color:white;
+    border: 1px solid rgb(207, 193, 193);
+    border-radius: 4px;
+      width:310%;
+      padding: 20%;
+      background-color: black;
+   }
+  
+   #time{
+      width:350%;
+      padding: 20%;
+      color: white;
+      background-color: black;
+      border: 1px solid rgb(207, 199, 199);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+   #date{
+      width: 350%;
+      padding: 20%;
+      color:white;
+      background-color: black;
+      border: 1px solid rgb(206, 180, 180);
+      border-radius: 4px;
+      box-sizing: border-box;
+      
+    }
+  }
+
+
   

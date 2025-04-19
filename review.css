@@ -214,6 +214,111 @@ h1{
     }
   }
 
+  @media only screen and (min-width:769px) and (max-width:1024px){
+    body{
+      background-color: black;
+      color: white;
+      overflow: hidden;
+      margin-top: 60px;
+  }
+  .reviews{
+  display: flex;
+  gap: 50px;
+  margin-top: 65px;
+  margin-left: 9%;
+  line-height: 35px;
+  color: white;
+  text-align:center;
+  }
+  .reviews h1{
+  
+  }
+  #logo{
+      width: 220px;
+      margin-left: -300px;
+  }
+  .head{
+      margin-left: 750px;
+  }
+  h1{
+    margin-left: -260px;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+  }
+  #up-quote{
+      margin-left: 7%;
+      color: rgb(231, 23, 23);
+      font-size: 40px;
+  }
+  #down-quote{
+      margin-left: 92%;
+      bottom: 40%;
+      position: absolute;
+      color: rgb(231, 23, 23);
+      font-size: 40px;
+  }
+  #previous{
+      font-size: 40px;
+      margin-top: 70px;
+      color: gray;
+      
+  }
+  #next{
+      font-size: 40px;
+      margin-top: 70px;
+      color: gray;
+  }
+  .navbar {
+      background-color: rgb(15, 14, 14);
+      position: fixed;
+      bottom: 0;
+      width: 70%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 40px;
+      margin-bottom: 55px;
+      margin-left: 5%;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #F2F2F2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    #reserve {
+      background-color: rgb(117, 113, 113);
+      border-radius: 30px;
+      padding: 20px 20px 20px 20px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    #reserve:hover {
+      color: black;
+      background: white;
+    }
+    .navbar a:hover {
+      background: rgb(48, 45, 45);
+      border-radius: 30px;
+    }
+    .navbar a.active {
+      background-color: black;
+      color:  rgb(32, 27, 27);
+    }
+    #whatsapp {
+      position:absolute;
+      background-color: rgb(15, 14, 14);
+      border-radius: 80px;
+      padding: 30px;
+      margin-top: 400px;
+      margin-left: 135%;
+      bottom: 4%;
+      right: 3%;
+    }
+  }
 
 
 

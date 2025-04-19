@@ -1,7 +1,4 @@
-@font-face{
-  font-family: poppins;
-  src: url(Poppins-Regular.ttf)
-}
+
 
 
 body{
@@ -356,6 +353,170 @@ padding-bottom: 3%;
 
 
 
+
+
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+  body{
+    overflow: hidden;
+    margin: auto;
+    
+  
+  }
+  .ankole {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .socials{
+    position:absolute;
+    margin-bottom: 0%;  margin-top: -65%;
+    margin-left: 80%;
+    margin-right: 100%;
+    padding-right: 100%;
+  color: rgb(131, 122, 122);
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  }
+  #ig{
+    border: solid 1px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: gray;
+    width: 100%;
+  
+  }
+  #fb{
+    border: solid 1px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: gray;
+    width: 100%;
+  }
+  
+  
+  
+  .text {
+    background-position: center;
+    opacity: 0;
+    text-align: center;
+    font-size: 65px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: slide 15s infinite;
+    color: gray;
+      
+  }
+  .welcome {
+    background-image: url(Images/anokle\ ingredient.jpg);
+    animation-delay: 0s;
+    
+   
+  }
+  .discover {
+    background-image: url(Images/home\ anokle\ light.jpg);
+    animation-delay: 5s;
+  
+  }
+  
+  
+  .exprience {
+    animation-delay: 10s;
+    background-image: url(Images/anokle\ steak.jpg);
+    
+  }
+  
+  
+  .taste {
+    animation-delay: 15s;
+    background-image: url(Images/anokle\ drink.jpg);
+  }
+  
+  
+  .savor {
+    animation-delay: 20s;
+    background-image: url(Images/anokle\ ingredient.jpg);
+  }
+  
+  .navbar{
+    position: absolute;
+    height:30px;
+    width:80%;
+    border-radius: 50px;
+    background-color: black;
+    top:85%;
+    padding-top: 22px;
+      padding-bottom: 20px;
+      border-radius: 40px;
+      margin-bottom: 55px;
+      margin-left: 3%;
+    font-size: 20px;
+    
+  
+  }
+  .logo{
+  width:80%;
+  }
+   
+  .navbar a{
+    text-decoration: none;
+    color: white;
+    gap:1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+    
+    
+  }
+  
+  
+  #reserve{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+  #reserve:hover{
+  background-color: white;
+  color:black;
+  
+    
+  }
+  .navbar a:hover {
+  background: rgb(36, 35, 35);
+  }
+  
+  .navbar a.active {
+  background-color: black;
+  color: rgb(32, 27, 27);
+  }
+  .fa-whatsapp{
+    padding: 2.7% 3% ;
+    position: absolute;
+    left: 215%;
+  top: 1%;
+  font-size: 40px;
+  border: 1px solid gray;
+  width: 32px;
+  height: 34px;  
+  border-radius: 90px;
+  background-color: black;
+  margin-left: -110%;
+  color: white;
+  padding-bottom: 3%;
+  
+  }
+  
 
 
 
